@@ -6,6 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Penelope Pooler Eisenbies">
+<meta name="dcterms.date" content="2026-04-12">
 
 <title>Checklist: Publish a Quarto Dashboard to GitHub</title>
 <style>
@@ -85,10 +87,28 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#complete-these-tasks-first" id="toc-complete-these-tasks-first" class="nav-link active" data-scroll-target="#complete-these-tasks-first">Complete these Tasks First</a></li>
-  <li><a href="#create-and-render-a-quarto-website" id="toc-create-and-render-a-quarto-website" class="nav-link" data-scroll-target="#create-and-render-a-quarto-website">Create and Render a Quarto Website</a></li>
-  <li><a href="#publish-your-dashboard-with-github-pages" id="toc-publish-your-dashboard-with-github-pages" class="nav-link" data-scroll-target="#publish-your-dashboard-with-github-pages">Publish Your Dashboard with GitHub Pages</a></li>
+  <ul class="collapse">
+  <li><a href="#complete-these-tasks-first" id="toc-complete-these-tasks-first" class="nav-link active" data-scroll-target="#complete-these-tasks-first">Complete these Tasks First</a>
+  <ul class="collapse">
+  <li><a href="#download-and-install-software" id="toc-download-and-install-software" class="nav-link" data-scroll-target="#download-and-install-software">Download and Install Software</a></li>
+  <li><a href="#create-a-github-account" id="toc-create-a-github-account" class="nav-link" data-scroll-target="#create-a-github-account">Create a GitHub Account</a></li>
+  <li><a href="#generate-a-personal-access-token-pat" id="toc-generate-a-personal-access-token-pat" class="nav-link" data-scroll-target="#generate-a-personal-access-token-pat">Generate a Personal Access Token (PAT)</a></li>
+  <li><a href="#add-github-accountpat-to-github-desktop" id="toc-add-github-accountpat-to-github-desktop" class="nav-link" data-scroll-target="#add-github-accountpat-to-github-desktop">Add GitHub account/PAT to GitHub Desktop</a></li>
+  </ul></li>
+  <li><a href="#create-and-render-a-quarto-website" id="toc-create-and-render-a-quarto-website" class="nav-link" data-scroll-target="#create-and-render-a-quarto-website">Create and Render a Quarto Website</a>
+  <ul class="collapse">
+  <li><a href="#create-a-new-quarto-website-project-in-rstudio" id="toc-create-a-new-quarto-website-project-in-rstudio" class="nav-link" data-scroll-target="#create-a-new-quarto-website-project-in-rstudio">Create a New Quarto Website Project in RStudio</a></li>
+  <li><a href="#modify-project-as-follows" id="toc-modify-project-as-follows" class="nav-link" data-scroll-target="#modify-project-as-follows">Modify Project as Follows:</a></li>
+  <li><a href="#update-renv" id="toc-update-renv" class="nav-link" data-scroll-target="#update-renv">Update <code>renv</code></a></li>
+  <li><a href="#render-incomplete-dashboard" id="toc-render-incomplete-dashboard" class="nav-link" data-scroll-target="#render-incomplete-dashboard">Render Incomplete Dashboard</a></li>
+  </ul></li>
+  <li><a href="#publish-your-dashboard-with-github-pages" id="toc-publish-your-dashboard-with-github-pages" class="nav-link" data-scroll-target="#publish-your-dashboard-with-github-pages">Publish Your Dashboard with GitHub Pages</a>
+  <ul class="collapse">
+  <li><a href="#make-an-initial-commit-using-github-desktop" id="toc-make-an-initial-commit-using-github-desktop" class="nav-link" data-scroll-target="#make-an-initial-commit-using-github-desktop">Make an Initial Commit Using GitHub Desktop</a></li>
+  <li><a href="#enable-github-pages" id="toc-enable-github-pages" class="nav-link" data-scroll-target="#enable-github-pages">Enable GitHub Pages</a></li>
+  <li><a href="#finding-your-website" id="toc-finding-your-website" class="nav-link" data-scroll-target="#finding-your-website">Finding Your Website</a></li>
+  <li><a href="#updating-your-website" id="toc-updating-your-website" class="nav-link" data-scroll-target="#updating-your-website">Updating Your Website</a></li>
+  </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
@@ -104,7 +124,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Penelope Pooler Eisenbies </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 12, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -138,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 </label></li>
 <li><label><input type="checkbox">Download and install the <strong>Quarto CLI</strong> from <strong><a href="https://quarto.org/docs/get-started/" class="uri">https://quarto.org/docs/get-started/</a></strong>.<br>
 </label></li>
-<li><label><input type="checkbox">Download and install GitHub Desktop from <strong><a href="https://desktop.github.com/download/" class="uri">https://desktop.github.com/download/</a></strong>.<br>
+<li><label><input type="checkbox">Download and install <strong>GitHub Desktop</strong> from <strong><a href="https://desktop.github.com/download/" class="uri">https://desktop.github.com/download/</a></strong>.<br>
 </label></li>
 </ul>
 </section>
