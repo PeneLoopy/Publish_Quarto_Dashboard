@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "",
+    "text": "TipWhat students need before starting\n\n\n\nThis section ensures everyone has the correct software and accounts before beginning to publish a dashboard.\n\n\n\n\n\nDownload and install R from https://cran.r-project.org.\n\nDownload and install RStudio from https://posit.co/download/rstudio-desktop/.\n\nDownload and install the Quarto CLI from https://quarto.org/docs/get-started/.\n\nDownload and install GitHub Desktop from https://desktop.github.com/download/.\n\n\n\n\n\n\n\n\n\n\n\nTipI recommend Gmail\n\n\n\nI have done this multiple times using different gmail accounts to create multiple GitHub accounts and the process has been straightforward.\n\n\n\nGo to https://github.com and click Sign Up.\n\nChoose a username, email, and password.\n\nVerify your email and complete setup.\n\n\n\n\n\n\n\n\n\n\n\nWarningImportant\n\n\n\n\nAccording to AI: GitHub no longer accepts passwords for Git operations; a Personal Access Token (PAT) is required instead.\nDespite the statement above, I have been able to sign-in with a password.\nI recommend saving the PAT as a precaution and keeping it handy.\nI did not need my PAT when I added a new GitHub account to my GitHub Desktop but you might.\n\n\n\n\nLog into GitHub and go to Settings → Developer settings → Personal access tokens → Tokens (classic)\n\nClick Generate new token (classic)\n\nName it (e.g., “GitHub Desktop Token”), set expiration, and check repo scope.\n\nClick Generate and copy and save the token immediately.\n\n\n\n\n\nOpen GitHub Desktop → File → Options → Accounts.\n\nClick Sign in to GitHub.com.\n\nWhen prompted for your password, paste your PAT instead."
+  },
+  {
+    "objectID": "index.html#download-and-install-software",
+    "href": "index.html#download-and-install-software",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "",
+    "text": "Download and install R from https://cran.r-project.org.\n\nDownload and install RStudio from https://posit.co/download/rstudio-desktop/.\n\nDownload and install the Quarto CLI from https://quarto.org/docs/get-started/.\n\nDownload and install GitHub Desktop from https://desktop.github.com/download/."
+  },
+  {
+    "objectID": "index.html#create-a-github-account",
+    "href": "index.html#create-a-github-account",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "",
+    "text": "TipI recommend Gmail\n\n\n\nI have done this multiple times using different gmail accounts to create multiple GitHub accounts and the process has been straightforward.\n\n\n\nGo to https://github.com and click Sign Up.\n\nChoose a username, email, and password.\n\nVerify your email and complete setup."
+  },
+  {
+    "objectID": "index.html#generate-a-personal-access-token-pat",
+    "href": "index.html#generate-a-personal-access-token-pat",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "",
+    "text": "WarningImportant\n\n\n\n\nAccording to AI: GitHub no longer accepts passwords for Git operations; a Personal Access Token (PAT) is required instead.\nDespite the statement above, I have been able to sign-in with a password.\nI recommend saving the PAT as a precaution and keeping it handy.\nI did not need my PAT when I added a new GitHub account to my GitHub Desktop but you might.\n\n\n\n\nLog into GitHub and go to Settings → Developer settings → Personal access tokens → Tokens (classic)\n\nClick Generate new token (classic)\n\nName it (e.g., “GitHub Desktop Token”), set expiration, and check repo scope.\n\nClick Generate and copy and save the token immediately."
+  },
+  {
+    "objectID": "index.html#add-github-accountpat-to-github-desktop",
+    "href": "index.html#add-github-accountpat-to-github-desktop",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "",
+    "text": "Open GitHub Desktop → File → Options → Accounts.\n\nClick Sign in to GitHub.com.\n\nWhen prompted for your password, paste your PAT instead."
+  },
+  {
+    "objectID": "index.html#create-a-new-quarto-website-project-in-rstudio",
+    "href": "index.html#create-a-new-quarto-website-project-in-rstudio",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Create a New Quarto Website Project in RStudio",
+    "text": "Create a New Quarto Website Project in RStudio\n\nIn RStudio: File → New Project → New Directory → Quarto Website.\n\nEnter a directory name (e.g., Stock_Dashboard).\n\nChoose a location on your computer (e.g., Desktop).\n\nEnsure these boxes are checked:\n\nCreate a git repository\n\nUse renv with this project\n\nUse visual markdown editor (not required)\n\nClick Create Project."
+  },
+  {
+    "objectID": "index.html#modify-project-as-follows",
+    "href": "index.html#modify-project-as-follows",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Modify Project as Follows:",
+    "text": "Modify Project as Follows:\n\nIn the folder for this project, delete about.qmd.\n\nDownload this zipped folder, dashboard_files.zip, and unzip it.\n\nPlace all the files in the project folder you created above.\n\n\nReplace files in your destination folder."
+  },
+  {
+    "objectID": "index.html#update-renv",
+    "href": "index.html#update-renv",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Update renv",
+    "text": "Update renv\n\nIn the Console, type renv::snapshot().\n\nClick Enter or Return, and then select Option 2.\n\n\nThis process will take time.\n\n\nWhen you see the question Do you want to proceed?, type Y.\nIn the Console, type renv::status(), and confirm that you receive this message: No issues found -- the project is in a consistent state..\n\n\n\n\n\n\n\nTipThe renv update needs to be repeated periodically.\n\n\n\n\nrenv is a software ‘bubble’ within your software.\n\nAs you expand your project or the packages are updated, the above Update renv steps will need to be repeated.\nIf you see the message The project is out-of-sync -- use renv::status() for details., repeat the Update renv process."
+  },
+  {
+    "objectID": "index.html#render-incomplete-dashboard",
+    "href": "index.html#render-incomplete-dashboard",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Render Incomplete Dashboard",
+    "text": "Render Incomplete Dashboard\n\nIf you see a message like the one in this screenshot, at the top for any packages, click install.\n\nRun Setup chunk.\n\nRender (incomplete) dashboard.\n\nVerify that that the rendering has created an .html file.\n\n\nThe .html file is located in the _site folder.\n\nThis file will only have the last page.\n\nAll code and instructions will be provided in Lecture 27.\n\n\n\n\n\n\n\n\n\nTipWhy render before publishing\n\n\n\n\nGitHub Pages needs the rendered HTML files to exist before deployment."
+  },
+  {
+    "objectID": "index.html#make-an-initial-commit-using-github-desktop",
+    "href": "index.html#make-an-initial-commit-using-github-desktop",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Make an Initial Commit Using GitHub Desktop",
+    "text": "Make an Initial Commit Using GitHub Desktop\n\nOpen GitHub Desktop.\n\nClick File → Add local repository…\n\nNavigate to project folder and click Add repository.\n\nWrite a short comment (required) such as init commit in the summary box.\n\nClick Commit to main\n\nClick Publish repository\n\nName the repo without spaces and ensure it is public."
+  },
+  {
+    "objectID": "index.html#enable-github-pages",
+    "href": "index.html#enable-github-pages",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Enable GitHub Pages",
+    "text": "Enable GitHub Pages\n\nGo to your repository on GitHub.com.\n\nClick Code → Main → View all branches → New branch.\n\nName the new branch gh-pages and click Create new branch.\n\nClick Settings → Pages\n\nUnder Source confirm that it says Deploy from a branch.\n\nUnder branch it should say gh-pages.\n\n\n\n\n\n\n\n\nTipInitial publication is very very slow\n\n\n\n\nThe first time you do this it will take about 20-30 minutes.\nYou can watch the progress in action by clicking Actions → ‘init commit’ → build-deploy.\nWhen build-deploy is done, ’pages build and deployment will rerun automatically.\n\n\n\n ::: callout ### SUCCESS! Your Quarto website is now live on GitHub Pages. :::"
+  },
+  {
+    "objectID": "index.html#finding-your-website",
+    "href": "index.html#finding-your-website",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Finding Your Website",
+    "text": "Finding Your Website\n\nOn GitHub, Click Actions → pages build and deployment."
+  },
+  {
+    "objectID": "index.html#updating-your-website",
+    "href": "index.html#updating-your-website",
+    "title": "Checklist: Publish a Quarto Dashboard to GitHub",
+    "section": "Updating Your Website",
+    "text": "Updating Your Website\n\n\n\n\n\n\nTipRepeat some steps from initial commit to update website.\n\n\n\n\nProject is setup to automatically update on GitHub one you push it.\n\n\n\n\nMake desired changes to index.qmd and render it.\n\nOpen GitHub Desktop and navigate to correct repo.\n\n\nEventually you will have multiple repos.\n\n\nAdd new comment to summary box (required).\n\nClick Commit to main.\n\nClick Push origin."
+  }
+]
