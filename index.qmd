@@ -10,6 +10,8 @@ format:
   docx: default
 ---
 
+**Author:** {{< meta author >}}  
+**Last modified:** {{< meta date >}}
 
 
 ```{r include=F}
