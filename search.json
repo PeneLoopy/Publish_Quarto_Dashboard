@@ -4,35 +4,35 @@
     "href": "index.html",
     "title": "Checklist: Publish a Quarto Dashboard to GitHub",
     "section": "",
-    "text": "TipWhat students need before starting\n\n\n\nThis section ensures everyone has the correct software and accounts before beginning to publish a dashboard.\n\n\n\n\n\nDownload and install R from https://cran.r-project.org.\n\nDownload and install RStudio from https://posit.co/download/rstudio-desktop/.\n\nDownload and install the Quarto CLI from https://quarto.org/docs/get-started/.\n\nDownload and install GitHub Desktop from https://desktop.github.com/download/.\n\n\n\n\n\n\n\n\n\n\n\nTipI recommend Gmail\n\n\n\nI have done this multiple times using different gmail accounts to create multiple GitHub accounts and the process has been straightforward.\n\n\n\nGo to https://github.com and click Sign Up.\n\nChoose a username, email, and password.\n\nVerify your email and complete setup.\n\n\n\n\n\n\n\n\n\n\n\nWarningImportant\n\n\n\n\nAccording to AI: GitHub no longer accepts passwords for Git operations; a Personal Access Token (PAT) is required instead.\nDespite the statement above, I have been able to sign-in with a password.\nI recommend saving the PAT as a precaution and keeping it handy.\nI did not need my PAT when I added a new GitHub account to my GitHub Desktop but you might.\n\n\n\n\nLog into GitHub and go to Settings → Developer settings → Personal access tokens → Tokens (classic)\n\nClick Generate new token (classic)\n\nName it (e.g., “GitHub Desktop Token”), set expiration, and check repo scope.\n\nClick Generate and copy and save the token immediately.\n\n\n\n\n\nOpen GitHub Desktop → File → Options → Accounts.\n\nClick Sign in to GitHub.com.\n\nWhen prompted for your password, paste your PAT instead."
+    "text": "Author: Penelope Pooler Eisenbies\nLast modified: April 12, 2026"
   },
   {
     "objectID": "index.html#download-and-install-software",
     "href": "index.html#download-and-install-software",
     "title": "Checklist: Publish a Quarto Dashboard to GitHub",
-    "section": "",
-    "text": "Download and install R from https://cran.r-project.org.\n\nDownload and install RStudio from https://posit.co/download/rstudio-desktop/.\n\nDownload and install the Quarto CLI from https://quarto.org/docs/get-started/.\n\nDownload and install GitHub Desktop from https://desktop.github.com/download/."
+    "section": "Download and Install Software",
+    "text": "Download and Install Software\n\nDownload and install R from https://cran.r-project.org.\n\nDownload and install RStudio from https://posit.co/download/rstudio-desktop/.\n\nDownload and install the Quarto CLI from https://quarto.org/docs/get-started/.\n\nDownload and install GitHub Desktop from https://desktop.github.com/download/."
   },
   {
     "objectID": "index.html#create-a-github-account",
     "href": "index.html#create-a-github-account",
     "title": "Checklist: Publish a Quarto Dashboard to GitHub",
-    "section": "",
-    "text": "TipI recommend Gmail\n\n\n\nI have done this multiple times using different gmail accounts to create multiple GitHub accounts and the process has been straightforward.\n\n\n\nGo to https://github.com and click Sign Up.\n\nChoose a username, email, and password.\n\nVerify your email and complete setup."
+    "section": "Create a GitHub Account",
+    "text": "Create a GitHub Account\n\n\n\n\n\n\nTipI recommend Gmail\n\n\n\nI have done this multiple times using different gmail accounts to create multiple GitHub accounts and the process has been straightforward.\n\n\n\nGo to https://github.com and click Sign Up.\n\nChoose a username, email, and password.\n\nVerify your email and complete setup."
   },
   {
     "objectID": "index.html#generate-a-personal-access-token-pat",
     "href": "index.html#generate-a-personal-access-token-pat",
     "title": "Checklist: Publish a Quarto Dashboard to GitHub",
-    "section": "",
-    "text": "WarningImportant\n\n\n\n\nAccording to AI: GitHub no longer accepts passwords for Git operations; a Personal Access Token (PAT) is required instead.\nDespite the statement above, I have been able to sign-in with a password.\nI recommend saving the PAT as a precaution and keeping it handy.\nI did not need my PAT when I added a new GitHub account to my GitHub Desktop but you might.\n\n\n\n\nLog into GitHub and go to Settings → Developer settings → Personal access tokens → Tokens (classic)\n\nClick Generate new token (classic)\n\nName it (e.g., “GitHub Desktop Token”), set expiration, and check repo scope.\n\nClick Generate and copy and save the token immediately."
+    "section": "Generate a Personal Access Token (PAT)",
+    "text": "Generate a Personal Access Token (PAT)\n\n\n\n\n\n\nWarningImportant\n\n\n\n\nAccording to AI: GitHub no longer accepts passwords for Git operations; a Personal Access Token (PAT) is required instead.\nDespite the statement above, I have been able to sign-in with a password.\nI recommend saving the PAT as a precaution and keeping it handy.\nI did not need my PAT when I added a new GitHub account to my GitHub Desktop but you might.\n\n\n\n\nLog into GitHub and go to Settings → Developer settings → Personal access tokens → Tokens (classic)\n\nClick Generate new token (classic)\n\nName it (e.g., “GitHub Desktop Token”), set expiration, and check repo scope.\n\nClick Generate and copy and save the token immediately."
   },
   {
     "objectID": "index.html#add-github-accountpat-to-github-desktop",
     "href": "index.html#add-github-accountpat-to-github-desktop",
     "title": "Checklist: Publish a Quarto Dashboard to GitHub",
-    "section": "",
-    "text": "Open GitHub Desktop → File → Options → Accounts.\n\nClick Sign in to GitHub.com.\n\nWhen prompted for your password, paste your PAT instead."
+    "section": "Add GitHub account/PAT to GitHub Desktop",
+    "text": "Add GitHub account/PAT to GitHub Desktop\n\nOpen GitHub Desktop → File → Options → Accounts.\n\nClick Sign in to GitHub.com.\n\nWhen prompted for your password, paste your PAT instead."
   },
   {
     "objectID": "index.html#create-a-new-quarto-website-project-in-rstudio",
