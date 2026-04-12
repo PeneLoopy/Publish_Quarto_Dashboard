@@ -5,11 +5,29 @@ date: last-modified
 format:
   html:
     toc: true
-    toc-depth: 2
-    theme: cosmo
+    toc-depth: 1
+    theme: morph
   pdf: default
   docx: default
 ---
+
+
+```{r include=F}
+#| label: setup
+
+options(scipen=100)                         # suppress scientific notation
+
+# avoid system issues
+options(install.packages.check.source = "no")
+
+                                            # install pacman if needed
+if (!require("pacman")) install.packages("pacman", repos = "http://lib.stat.cmu.edu/R/CRAN/")
+pacman::p_load(pacman, tidyverse, ggthemes, gridExtra, magrittr,
+               kableExtra, gt, quarto)
+
+#pacman::p_loaded()
+
+```
 
 # Complete these Tasks First
 
@@ -22,8 +40,8 @@ accounts before beginning to publish a dashboard.
 
 ## Download and Install Software
 
--   [ ] Download and install **R** from **<https://cran.r-project.org>**.\
--   [ ] Download and install **RStudio** from **<https://posit.co/download/rstudio-desktop/>**.\
+-  [ ] Download and install **R** from **<https://cran.r-project.org>**.\
+-  [ ] Download and install **RStudio** from **<https://posit.co/download/rstudio-desktop/>**.\
 -  [ ] Download and install the **Quarto CLI** from **<https://quarto.org/docs/get-started/>**.\
 -  [ ] Download and install GitHub Desktop from **<https://desktop.github.com/download/>**.\
 
