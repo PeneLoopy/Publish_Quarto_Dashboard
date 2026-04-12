@@ -9,6 +9,6 @@ format:
     theme:
       - styles.css
     toc: true
-    toc-depth: 1
+    toc-depth: 2
     smooth-scroll: true
   docx: default

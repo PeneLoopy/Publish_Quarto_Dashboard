@@ -1,9 +1,12 @@
 ---
 title: "Checklist: Publish a Quarto Dashboard to GitHub"
+author: "Penelope Pooler Eisenbies"
+date: last-modified
+lightbox: true
 format:
   html:
     toc: true
-    toc-depth: 1
+    toc-depth: 2
   docx: default
 ---
 
@@ -40,7 +43,7 @@ accounts before beginning to publish a dashboard.
 -  [ ] Download and install **R** from **<https://cran.r-project.org>**.\
 -  [ ] Download and install **RStudio** from **<https://posit.co/download/rstudio-desktop/>**.\
 -  [ ] Download and install the **Quarto CLI** from **<https://quarto.org/docs/get-started/>**.\
--  [ ] Download and install GitHub Desktop from **<https://desktop.github.com/download/>**.\
+-  [ ] Download and install **GitHub Desktop** from **<https://desktop.github.com/download/>**.\
 
 ## Create a GitHub Account
 
@@ -80,7 +83,6 @@ I have done this multiple times using different gmail accounts to create multipl
 -   [ ] Open GitHub Desktop → **File → Options → Accounts**.\
 -   [ ] Click **Sign in to GitHub.com**.\
 -   [ ] When prompted for your password, paste your PAT instead.
-
 
 # Create and Render a Quarto Website
 
@@ -144,7 +146,6 @@ I have done this multiple times using different gmail accounts to create multipl
 - GitHub Pages needs the rendered HTML files to exist before
 deployment.
 :::
-
 
 # Publish Your Dashboard with GitHub Pages
 
