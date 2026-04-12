@@ -6,10 +6,9 @@ website:
 
 format:
   html:
-    theme: 
-      - morph
+    theme:
       - styles.css
     toc: true
-
-editor: visual
-
+    toc-depth: 1
+    smooth-scroll: true
+  docx: default

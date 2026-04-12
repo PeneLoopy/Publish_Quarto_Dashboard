@@ -1,15 +1,13 @@
 ---
 title: "Checklist: Publish a Quarto Dashboard to GitHub"
-author: "Penelope Pooler Eisenbies"
-date: last-modified
 format:
   html:
     toc: true
     toc-depth: 1
-    theme: morph
   pdf: default
   docx: default
 ---
+
 
 
 ```{r include=F}
