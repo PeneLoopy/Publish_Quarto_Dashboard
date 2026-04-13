@@ -60,7 +60,7 @@
     "href": "index.html#render-incomplete-dashboard",
     "title": "Checklist: Publish a Quarto Dashboard to GitHub",
     "section": "Render Incomplete Dashboard",
-    "text": "Render Incomplete Dashboard\n\nIf you see a message like the one in this screenshot, at the top for any packages, click install.\n\nRun Setup chunk.\n\nRender (incomplete) dashboard.\n\nVerify that that the rendering has created an .html file.\n\n\nThe .html file is located in the _site folder.\n\nThis file will only have the last page.\n\nAll code and instructions will be provided in Lecture 27.\n\n\n\n\n\n\n\n\n\nTipWhy render before publishing\n\n\n\n\nGitHub Pages needs the rendered HTML files to exist before deployment."
+    "text": "Render Incomplete Dashboard\n\nIf you see a message like the one in this screenshot, for any packages, click install.\n\nRun Setup chunk.\n\nRender (incomplete) dashboard.\n\nVerify that that the rendering has created an .html file.\n\n\nThe .html file is located in the _site folder.\n\nThis file will only have the last page.\n\nAll code and instructions will be provided in Lecture 27.\n\n\n\n\n\n\n\n\n\nTipWhy render before publishing\n\n\n\n\nGitHub Pages needs the rendered HTML files to exist before deployment."
   },
   {
     "objectID": "index.html#make-an-initial-commit-using-github-desktop",

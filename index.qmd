@@ -125,7 +125,7 @@ I have done this multiple times using different gmail accounts to create multipl
 
 ## Render Incomplete Dashboard
 
-- [ ] If you see a message like the one in this screenshot, at the top for any packages, click install.\
+- [ ] If you see a message like the one in this screenshot, **for any packages**, click install.\
 ![](img/package_install_warning.png){fig-align="center"}
 - [ ] Run **`Setup`** chunk.\
 - [ ] Render (incomplete) dashboard.\
