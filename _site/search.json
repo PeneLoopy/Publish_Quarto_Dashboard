@@ -74,7 +74,7 @@
     "href": "index.html#enable-github-pages",
     "title": "Checklist: Publish a Quarto Dashboard to GitHub",
     "section": "Enable GitHub Pages",
-    "text": "Enable GitHub Pages\n\nGo to your repository on GitHub.com.\n\nClick Code → Main → View all branches → New branch.\n\nName the new branch gh-pages and click Create new branch.\n\nClick Settings → Pages\n\nUnder Source confirm that it says Deploy from a branch.\n\nUnder branch it should say gh-pages.\n\n\n\n\n\n\n\n\nTipInitial publication is very very slow\n\n\n\n\nThe first time you do this it will take about 20-30 minutes.\nYou can watch the progress in action by clicking Actions → ‘init commit’ → build-deploy.\nWhen build-deploy is done, ’pages build and deployment will rerun automatically.\n\n\n\n ::: callout ### SUCCESS! Your Quarto website is now live on GitHub Pages. :::"
+    "text": "Enable GitHub Pages\n\nGo to your repository on GitHub.com.\n\nClick Code → Main → View all branches → New branch.\n\nName the new branch gh-pages and click Create new branch.\n\nClick Settings → Pages\n\nUnder Source confirm that it says Deploy from a branch.\n\nUnder branch it should say gh-pages.\n\n\n\n\n\n\n\n\nTipInitial publication is very very slow\n\n\n\n\nThe first time you do this it will take about 20-30 minutes.\nYou can watch the progress in action by clicking Actions → init commit → build-deploy.\nWhen build-deploy is done, pages build and deployment will rerun automatically.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoneSUCCESS!\n\n\n\nYour Quarto website is now live on GitHub Pages."
   },
   {
     "objectID": "index.html#finding-your-website",

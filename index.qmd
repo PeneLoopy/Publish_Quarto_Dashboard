@@ -171,12 +171,16 @@ deployment.
 -   [ ] Under branch it should say **gh-pages**.\
 
 ::: callout-tip
+
 ### Initial publication is very very slow 
 - **The first time you do this it will take about 20-30 minutes.**
-- You can watch the progress in action by clicking Actions → 'init commit' → build-deploy.
-- When build-deploy is done, 'pages build and deployment will rerun automatically.
+- You can watch the progress in action by clicking **Actions** → **init commit** → **build-deploy**.
+- When **build-deploy** is done, **pages build and deployment** will rerun automatically.
+
 :::
+
 ![](img/imit_commit_completed.png){fig-align="center" height="2.5in"}
+
 ::: callout
 ### SUCCESS!
 **Your Quarto website is now live on GitHub Pages.**
