@@ -62,12 +62,9 @@ I have done this multiple times using different gmail accounts to create multipl
 ::: callout-warning
 ### Important
 - **According to AI:** GitHub no longer accepts passwords for Git operations; a Personal Access Token (PAT) is required instead.
-
-- Despite the statement above, I have been able to sign-in with a password.
-
+- Despite the statement above, **I have been able to sign-in with a password** using the Google Browser.
 - I recommend saving the PAT as a precaution and keeping it handy.  
-
-- I did not need my PAT when I added a new GitHub account to my GitHub Desktop but you might. 
+- I did not need my PAT when I added a new GitHub account to my GitHub Desktop, but you might. 
 :::
 
 -   [ ] Log into GitHub and go to **Settings → Developer settings → Personal access tokens → Tokens (classic)**\
